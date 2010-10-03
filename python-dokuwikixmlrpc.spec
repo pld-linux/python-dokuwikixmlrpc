@@ -10,6 +10,7 @@ Source0:	http://github.com/chimeric/dokuwikixmlrpc/tarball/2010-07-19/#/%{name}.
 URL:		http://github.com/chimeric/dokuwikixmlrpc
 BuildRequires:	rpm-pythonprov
 BuildRequires:	rpmbuild(macros) >= 1.219
+Requires:	python-modules
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
